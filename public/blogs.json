@@ -1,0 +1,22 @@
+[
+      {
+        "question": "What is useState and how does it work in React?",
+        "answer": "useState is a React Hook that allows you to add state to functional components. It returns an array with two values: the current state and a function to update that state. When you update the state using the setter function, React re-renders the component with the new state value."
+      },
+      {
+        "question": "What is the purpose of useEffect in React?",
+        "answer": "useEffect is a Hook that lets you perform side effects in function components, such as data fetching, subscriptions, or manually changing the DOM. It runs after the render and can be set to run on mount, on update, or when specific values change by passing dependencies in the dependency array."
+      },
+      {
+        "question": "What is a custom hook in React and when should you use one?",
+        "answer": "A custom hook is a JavaScript function that starts with 'use' and allows you to extract and reuse logic that uses React hooks. Use a custom hook when you want to share stateful logic (like fetching data or form handling) between multiple components without repeating code."
+      },
+      {
+        "question": "Difference between controlled and uncontrolled components? Which one is better?",
+        "answer": "Controlled components are React components where form data is handled by the state in React, usually with useState. Uncontrolled components store their own state internally and use refs to access DOM values. Controlled components offer better control and validation, making them more suitable for complex forms, so they are generally preferred."
+      },
+      {
+        "question": "Tell us something about useFormStatus() (explore and explain)",
+        "answer": "useFormStatus is a Hook introduced in React 18 for Server Components. It provides information about the status of a form submission, such as whether the form is currently submitting or if an error occurred. It can be used with <form action={}> handlers to give user feedback (e.g., disabling a button during submission). It is part of React's experimental support for progressive enhancement."
+      }
+]
